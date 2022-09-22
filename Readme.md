@@ -1,0 +1,3 @@
+**What is middleware?**
+
+_Middleware is a function that is used for handling requests.it takes three parameters that is request,response,next.only when the conditions writen in middleware function is satisfied,then the request is directed to the server by using next(),otherwise we are redirected to some other page.there are 2 types of middleware-global middleware which work for all the routes and local middleware that works for only certain routes._
